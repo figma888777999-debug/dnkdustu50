@@ -14,7 +14,7 @@ header{
 .headerbuter{
     display: flex;
     gap: 40px;
-    font-size: 18px;
+    font-size: 20px;
 
 }
 
@@ -34,4 +34,29 @@ a{
     color: black;
     padding: 5px 13px;
     border: transparent;
+    font-size: larger;
+    padding: 10px 20px;
+}
+h1{
+    margin: 0;
+    border: transparent;
+    
+}   
+
+.hero{
+    background-color: rgb(35, 199, 199);
+    padding: 8%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.fr{
+     margin: 3px;
+    color: aliceblue;
+    border-radius: 20px;
+    color: black;
+    padding: 5px 13px;
+    border: transparent;
+    font-size: larger;
+    padding: 10px 20px;
 }
