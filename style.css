@@ -45,9 +45,10 @@ h1{
 
 .hero{
     background-color: rgb(35, 199, 199);
-    padding: 8%;
-    display: grid;
-    grid-template-columns: 40% 60%;
+    padding:0 8%;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
 }
 
 .fr{
@@ -59,4 +60,12 @@ h1{
     border: transparent;
     font-size: larger;
     padding: 10px 20px;
+}
+.texts{
+    margin-top: 13%;
+}
+
+.img11{
+    position: relative;
+
 }
